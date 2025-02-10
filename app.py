@@ -198,7 +198,7 @@ def Prepare_Agent_Info():
 #     # cur.execute("INSERT INTO TaxAssociateMember (Associate_IDcard, Associate_mem_IDcard, LotDate, Lotto_Nums) VALUES (%s, %s,%s, %s)", (Associate_IDcard, Associate_mem_IDcard, LotDate, Lotto_Nums))
 #     mysql.connection.commit()
 #     cur.close()
-
+# 
 #     return jsonify({"message": "User added successfully"}), 201
 
 if __name__ == "__main__":
